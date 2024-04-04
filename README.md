@@ -12,7 +12,7 @@
 
 
 ## 사용 방식
-먼저, 패킷 캡쳐툴을 사용해 4-way handshake를 캡쳐합니다.(WireShark나 리눅스의 airmon-ng 툴 등)  
+먼저, 4-way handshake를 캡쳐합니다.(WireShark나 리눅스의 airmon-ng등 이용)  
 캡쳐한 패킷에서 추출한 ssid(ap의 이름), apmac(무선랜의 mac address), stationmac(무선랜이 연결되는 station mac address), anonce , snonce, mic, message
 를 저장해 소스코드에 입력합니다.  
 crack_dictionary(), crack_bruteforce()를 통해 크래킹을 시작합니다.  
