@@ -12,7 +12,7 @@
 
 
 ## 사용 방식
-먼저, 패킷 캡쳐툴을 사용해 4-way handshake를 캡쳐하시길 바랍니다.(WireShark나 리눅스의 airmon-ng 툴을 사용하시는것을 권장드립니다)  
+먼저, 패킷 캡쳐툴을 사용해 4-way handshake를 캡쳐합니다.(WireShark나 리눅스의 airmon-ng 툴 등)  
 캡쳐한 패킷에서 추출한 ssid(ap의 이름), apmac(무선랜의 mac address), stationmac(무선랜이 연결되는 station mac address), anonce , snonce, mic, message
 를 저장해 소스코드에 입력합니다.  
 crack_dictionary(), crack_bruteforce()를 통해 크래킹을 시작합니다.  
@@ -29,7 +29,7 @@ crack_dictionary(), crack_bruteforce()를 통해 크래킹을 시작합니다.
 그것을 막고자 매개변수로 password의 길이, 허용하는 charset을 받게 하였습니다.  
 ![스크린샷 2024-01-10 오후 7 33 29](https://github.com/kjs990114/WPA2-crack/assets/50402527/c9834849-87e6-47f9-b17d-998dbb11f025)  
 charset은 다음과같이 선언되며, 패스워드에 포함되는 character를 제한합니다.
-상황에 맞게 사용하시길 바랍니다.
+상황에 맞게 사용하세요
 
 
 ## reference
