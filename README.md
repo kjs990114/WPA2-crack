@@ -7,7 +7,7 @@
 이 코드는 WPA2 passphrase를 cracking하기위한 코드이며, offline guessing 방식을 사용합니다.  
 학습이나 보안의 취약점을 파악하는데 사용하세요.
 
-별도의 패킷 캡쳐는 제공되지않고, 사전에 캡쳐한 패킷의 정보를 이용해 이 코드에 입력하시면 password cracking을 할 수 있습니다.  
+사전에 캡쳐한 패킷의 정보를 이용해 이 코드에 입력하시면 password cracking을 할 수 있습니다.  
 지원하는 모드는 brute-force mode , dictionary mode가 존재합니다.  
 
 
