@@ -26,10 +26,9 @@ crack_dictionary(), crack_bruteforce()를 통해 크래킹을 시작합니다.
 ## crack_bruteforce()
 
 모든 문자열과, 길이제한을 하지않으면 엄청난 시간이 소요되게 됩니다.   
-그것을 막고자 매개변수로 password의 길이, 허용하는 charset을 받게 하였습니다.  
+따라서 매개변수로 password의 길이, 허용하는 charset을 받게 하였습니다.  
 ![스크린샷 2024-01-10 오후 7 33 29](https://github.com/kjs990114/WPA2-crack/assets/50402527/c9834849-87e6-47f9-b17d-998dbb11f025)  
-charset은 다음과같이 선언되며, 패스워드에 포함되는 character를 제한합니다.
-상황에 맞게 사용하세요
+예시로 charset은 다음과같이 선언되며, 패스워드에 포함되는 character를 제한할수있습니다.
 
 
 ## reference
